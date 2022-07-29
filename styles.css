@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: "DM sans", "sans sarif";
+    overflow: hidden;
+}
+
+.top-container{
+    height: 99px;
+    width: 442px;
+    background-color: hsl(10, 79%, 65%);
+    position: absolute;
+    left: 520px;
+    top: 150px;
+    border-radius: 13px;
+}
+
+.main-container{
+    height: 370px;
+    width: 442px;
+    background-color: hsl(33, 100%, 98%);
+    position: absolute;
+    left: 520px;
+    top: 273px;
+    border-radius: 13px;
+    
+}
+
+.myBal{
+    color: hsl(27, 66%, 92%);
+    position: relative;
+    top: 19px;
+    left: 22px;
+    font-weight: 100;
+    
+}
+
+.topMoney{
+    color: hsl(33, 100%, 98%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: relative;
+    top: 54px;
+    right: 67px;
+    display: inline;
+}
+
+.white-circle{
+    position: relative;
+    left: 346px;
+    top: 2px;
+    height: 35px;
+    width: 35px;
+    border: 2px solid rgb(224, 214, 214);
+    border-radius: 20px;
+    z-index: 1;
+    
+}
+.brown-circle{
+    position: relative;
+    left: 365px;
+    top: -38px;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border: 2px solid ;
+    background-color: black;
+}
+
+h2{
+  margin: 22px auto auto 23px;
+}
+
+
+.days{
+    background-color: hsl(10, 79%, 65%);
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    width: 38px;
+}
+.mon{
+    height: 35px;
+    left: 22px;
+    top: 130px;
+}
+
+.tue{
+    height: 65px;
+    top: 65px;
+    left: 70px;
+}
+
+.wed{
+    height: 103px;
+    top: -38px;
+    left: 120px;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.thu{
+    height: 58px;
+    bottom: 97px;
+    left: 170px;
+}
+
+.fri{
+    height: 47px;
+    bottom: 144px;
+    left: 220px;
+
+}
+
+.sat{
+    height: 86px;
+    left: 270px;
+    bottom: 230px;
+}
+
+.sun{
+    height: 56px;
+    bottom: 286px;
+    left: 319px;
+}
+
+hr{
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    bottom: 476px;
+    left: 23px;
+    width: 353px;
+}
+.tag{
+    height: 25px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.mon-money{
+    position: relative;
+    bottom: 356px;
+    left: 7px;
+    visibility: hidden;
+}
+
+.tue-money{
+    position: relative;
+    bottom: 412px;
+    left: 61px;
+    visibility: hidden;
+}
+
+.wed-money{
+    position: relative;
+    bottom: 479px;
+    left: 113px;
+    visibility: hidden;
+}
+.thu-money {
+    position: relative;
+    bottom: 465px;
+    left: 162px;
+    visibility: hidden;
+}
+
+.fri-money{
+    position: relative;
+    bottom: 481px;
+    left: 215px;
+    visibility: hidden;
+}
+
+.sat-money{
+    position: relative;
+    bottom: 549px;
+    left: 262px;
+    visibility: hidden;
+}
+
+.sun-money{
+    position: relative;
+    bottom: 547px;
+    left: 315px;
+    visibility: hidden;
+}
+.days-words{
+    color: rgb(144, 126, 126);
+}
+
+.mon-word{
+   position: relative;
+   bottom: 488px;
+   left: 25px;
+}
+.tue-word{
+    position: relative;
+    bottom: 488px;
+    left: 38px;
+ }
+ .wed-word{
+    position: relative;
+    bottom: 488px;
+    left: 59px;
+ }
+ .thu-word{
+    position: relative;
+    bottom: 488px;
+    left: 76px;
+ }
+ .fri-word{
+    position: relative;
+    bottom: 488px;
+    left: 102px;
+ }
+ .sat-word{
+    position: relative;
+    bottom: 488px;
+    left: 129px;
+ }
+ .sun-word{
+    position: relative;
+    bottom: 488px;
+    left: 150px;
+ }
+
+ .total-amount{
+    position: absolute;
+    bottom: 18px;
+    left: 24px;
+ }
+
+ h1{
+    margin-top: -14px;
+    position: relative;
+    top: 15px;
+}
+ .plus{
+    position: relative;
+    left: 318px;
+    bottom: 39px;
+ }
+ .from{
+    position: relative;
+    left: 199px;
+    bottom: 19px;
+    color: rgb(144, 126, 126);
+ }
+
+ @media(max-width: 1024px){
+
+    .top-container{
+        position: absolute;
+        left: 27px;
+        top: 100px;
+    }
+    .main-container{
+        position: absolute;
+        left: 27px;
+        top: 220px;
+    }
+ }
